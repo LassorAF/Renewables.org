@@ -1,0 +1,21 @@
+<!-- Mapbox Resources -->
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+
+<style>
+/*style map popups*/
+.mapboxgl-popup-content {
+	pointer-events: auto;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 0px 0px;
+  color: #F4F5F5;
+  ///background-color: #F4F5F5;
+}
+
+/*
+/*popup bottom arrow color*/
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    border-top-color: #F4F5F5;
+}
+</style>
